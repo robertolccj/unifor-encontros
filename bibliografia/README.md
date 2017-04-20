@@ -14,4 +14,4 @@ https://pt.wikipedia.org/wiki/BibTeX
 
 #### Software usado
 
-Software livre "Jabref".
+Software livre [Jabref](http://www.jabref.org/)
