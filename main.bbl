@@ -1,0 +1,463 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Andrades_2013}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=deaa568336232571182522ac657603d4}{%
+           family={Andrades},
+           familyi={A\bibinitperiod},
+           given={José\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=5184a0ea06ca78c512736fcf4a124278}{%
+           family={Schiappacassa},
+           familyi={S\bibinitperiod},
+           given={Aridio},
+           giveni={A\bibinitperiod}}}%
+        {{uniquename=0,hash=988781cca1f65d14790a2d3bf585818f}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Péricles\bibnamedelima Freire},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={dos},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{FapUNIFESP} ({SciELO})}%
+      }
+      \strng{namehash}{a64a6fbdf799633d488459ead4b388b3}
+      \strng{fullhash}{a64a6fbdf799633d488459ead4b388b3}
+      \strng{authornamehash}{a64a6fbdf799633d488459ead4b388b3}
+      \strng{authorfullhash}{a64a6fbdf799633d488459ead4b388b3}
+      \field{sortinit}{A}
+      \field{sortinithash}{3248043b5fe8d0a34dab5ab6b8d4309b}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Ensino de Física}
+      \field{month}{6}
+      \field{number}{2}
+      \field{title}{Desenvolvimento de um periodímetro microcontrolado para aplicações em física experimental.}
+      \field{volume}{35}
+      \field{year}{2013}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1590/S1806-11172013000200023
+      \endverb
+    \endentry
+    \entry{Grandini_2004}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=5b8b82e06c291ceb87c700c51001bb2c}{%
+           family={Grandini},
+           familyi={G\bibinitperiod},
+           given={Nádia\bibnamedelima Alves},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=1,hash=0ce9964c3ed1ab6fb9e66adf17369462}{%
+           family={Grandini},
+           familyi={G\bibinitperiod},
+           given={Carlos\bibnamedelima Roberto},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \list{publisher}{1}{%
+        {scielo}%
+      }
+      \strng{namehash}{bff2119ea9581f6f311223acc3b4af39}
+      \strng{fullhash}{bff2119ea9581f6f311223acc3b4af39}
+      \strng{authornamehash}{bff2119ea9581f6f311223acc3b4af39}
+      \strng{authorfullhash}{bff2119ea9581f6f311223acc3b4af39}
+      \field{sortinit}{G}
+      \field{sortinithash}{618d986594b7198ba52cf8b00d348f3f}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1806--1117}
+      \field{journaltitle}{Revista Brasileira de Ensino de Física}
+      \field{number}{3}
+      \field{title}{Os objetivos do laboratório didático na visão dos alunos do curso de Licenciatura em Física da UNESP-Bauru}
+      \field{volume}{26}
+      \field{year}{2004}
+      \field{pages}{251\bibrangedash 256}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1590/s0102-47442004000300011
+      \endverb
+      \verb{file}
+      \verb Artigo:a11v26n3.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Resnick2012v1}{book}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9d9a6552821ea504ab1a5c767dddff92}{%
+           family={Halliday},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{uniquename=0,hash=8967f5a0664f741b0ef2530a47e698fa}{%
+           family={Resnick},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{uniquename=0,hash=aa8304879d8f7d99c7c4570759b948e2}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Jearl},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {LTC}%
+      }
+      \strng{namehash}{3978689396696961b0bd612b55ccf075}
+      \strng{fullhash}{3978689396696961b0bd612b55ccf075}
+      \strng{authornamehash}{3978689396696961b0bd612b55ccf075}
+      \strng{authorfullhash}{3978689396696961b0bd612b55ccf075}
+      \field{sortinit}{H}
+      \field{sortinithash}{2f664b453ec75da1fe3804ca92633405}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{title}{Fundamento de Física: Mecânica}
+      \field{volume}{1}
+      \field{year}{2012}
+    \endentry
+    \entry{Marineli_2006}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=4c831da85fb4f73393a8d7d31e4deee9}{%
+           family={Marineli},
+           familyi={M\bibinitperiod},
+           given={Fábio},
+           giveni={F\bibinitperiod}}}%
+        {{uniquename=0,hash=253c536295460abd11de122451fc32c0}{%
+           family={Almeida\bibnamedelima Pacca},
+           familyi={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Jesuína\bibnamedelima Lopes},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {pt}%
+      }
+      \list{publisher}{1}{%
+        {{FapUNIFESP} ({SciELO})}%
+      }
+      \strng{namehash}{296da836271843048889e17239136d37}
+      \strng{fullhash}{296da836271843048889e17239136d37}
+      \strng{authornamehash}{296da836271843048889e17239136d37}
+      \strng{authorfullhash}{296da836271843048889e17239136d37}
+      \field{sortinit}{M}
+      \field{sortinithash}{c26a05ef03e4429073ed5c825140fac3}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1806-1117}
+      \field{journaltitle}{Revista Brasileira de Ensino de Física}
+      \field{month}{00}
+      \field{number}{4}
+      \field{title}{Uma interpretação para dificuldades enfrentadas pelos estudantes em um laboratório didático de física}
+      \field{volume}{28}
+      \field{year}{2006}
+      \field{pages}{497\bibrangedash 505}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1590/s1806-11172006000400012
+      \endverb
+      \verb{file}
+      \verb Artigo:a12v28n4.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Moyses2013v1}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ccdab76eb2dd8cb4e3cf362824586105}{%
+           family={Nussenveig},
+           familyi={N\bibinitperiod},
+           given={H.\bibnamedelimi Moysés},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Blucher}%
+      }
+      \strng{namehash}{ccdab76eb2dd8cb4e3cf362824586105}
+      \strng{fullhash}{ccdab76eb2dd8cb4e3cf362824586105}
+      \strng{authornamehash}{ccdab76eb2dd8cb4e3cf362824586105}
+      \strng{authorfullhash}{ccdab76eb2dd8cb4e3cf362824586105}
+      \field{sortinit}{N}
+      \field{sortinithash}{1163c28585427c673ad5a010cbf82f52}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5}
+      \field{title}{Curso de Física Básica: Mecânica}
+      \field{volume}{1}
+      \field{year}{2013}
+    \endentry
+    \entry{OliveiraZanetti2015}{incollection}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=94f3f9a813a265248e2b194abbedd1d2}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Cláudio\bibnamedelima Vieira},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=1,hash=8681a5f95921632e5df11e82b722643a}{%
+           family={Zanetti},
+           familyi={Z\bibinitperiod},
+           given={Humberto\bibnamedelima Piovesana},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Érica}%
+      }
+      \strng{namehash}{ae1b2e2a703b35376d1acaa5271172c5}
+      \strng{fullhash}{ae1b2e2a703b35376d1acaa5271172c5}
+      \strng{authornamehash}{ae1b2e2a703b35376d1acaa5271172c5}
+      \strng{authorfullhash}{ae1b2e2a703b35376d1acaa5271172c5}
+      \field{sortinit}{O}
+      \field{sortinithash}{f5d80ef71b5b58852663ecfd775b175a}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Arduino Descomplicado - Como Elaborar Projetos de Eletrônica}
+      \field{chapter}{1}
+      \field{title}{Arduino}
+      \field{year}{2015}
+      \field{pages}{18\bibrangedash 38}
+      \range{pages}{21}
+      \verb{url}
+      \verb https://online.minhabiblioteca.com.br/books/9788536518114/pageid/17
+      \endverb
+    \endentry
+    \entry{RodriguesCunha2014}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=2421b39f1ba00edc15e8f4ae4204a8a5}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Rafael\bibnamedelima Frank},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=620a1bb3f3c41d11b3e79311b4e3e7dc}{%
+           family={Cunha},
+           familyi={C\bibinitperiod},
+           given={Silvio\bibnamedelimb Luiz\bibnamedelima Souza},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Porto Alegre}%
+      }
+      \list{publisher}{1}{%
+        {UFRGS, Instituto de Física}%
+      }
+      \strng{namehash}{985c1815ec42dbc6f3147cd5749d8587}
+      \strng{fullhash}{985c1815ec42dbc6f3147cd5749d8587}
+      \strng{authornamehash}{985c1815ec42dbc6f3147cd5749d8587}
+      \strng{authorfullhash}{985c1815ec42dbc6f3147cd5749d8587}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{4}
+      \field{series}{Arduino para físicos: uma ferramenta prática para aquisição de dados automáticos.}
+      \field{title}{Textos de Apoio ao Professor de Física}
+      \field{volume}{25}
+      \field{year}{2014}
+      \verb{file}
+      \verb :rodrigues_v25_n4.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb https://www.if.ufrgs.br/public/tapf/rodrigues_v25_n4.pdf
+      \endverb
+    \endentry
+    \entry{Rosa2003}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=808c87a4f39e8460cc5090bf2c0cc174}{%
+           family={Rosa},
+           familyi={R\bibinitperiod},
+           given={Cleci\bibnamedelima Werner},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           prefix={da},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{808c87a4f39e8460cc5090bf2c0cc174}
+      \strng{fullhash}{808c87a4f39e8460cc5090bf2c0cc174}
+      \strng{authornamehash}{808c87a4f39e8460cc5090bf2c0cc174}
+      \strng{authorfullhash}{808c87a4f39e8460cc5090bf2c0cc174}
+      \field{sortinit}{R}
+      \field{sortinithash}{c15bc8eb6936bc6b3c8baa9e8575af53}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{O presente texto consiste na reflexão acerca do processo ensino-aprendizagem da Física no âmbito das atividades práticas/experimentais desenvolvidas em laboratório didático<br />nos cursos de graduação da Universidade de Passo Fundo. O objetivo principal consiste em elucidar as concepções teórico-metodológicas dos professores de Física desta instituição que utilizam aulas práticas/experimentais na sua ação docente. Fundamenta-se tal estudo na perspectiva dos processos cognoscitivos de aprendizagem, no processo de transposição didática e na identificação do laboratório em questão frente aos tipos de laboratório e às abordagens dadas no ensino de Física experimental do Brasil. A investigação decorre de entrevistas semi-estruturadas cujos dados coletados apontaram que o grupo de professores investigado atribui significativa importância às aulas práticas/experimentais e que tais atividades têm possibilitado a apropriação dos conceitos e fenômenos físicos.}
+      \field{issn}{1983-2117}
+      \field{journaltitle}{Ensaio Pesquisa em Educação em Ciências}
+      \field{number}{2}
+      \field{title}{Concepções teórico-metodológicas no laboratório didático de Física na Universidade de Passo Fundo}
+      \field{volume}{5}
+      \field{year}{2003}
+      \verb{file}
+      \verb Artigo:62-243-1-PB.pdf:PDF
+      \endverb
+      \verb{url}
+      \verb http://www.portal.fae.ufmg.br/seer/index.php/ensaio/article/view/62
+      \endverb
+    \endentry
+    \entry{Souza_2011}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=16a52dfc095a42d36d55cc2f4b9d6ca7}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Anderson\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{uniquename=0,hash=e6971b2c65990cb36dc4c0626291384e}{%
+           family={Paixão},
+           familyi={P\bibinitperiod},
+           given={Alexsander\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=ab1836a3bc0815758457efa1684e258d}{%
+           family={Uzêda},
+           familyi={U\bibinitperiod},
+           given={Diego\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{uniquename=0,hash=87badb05c6beabffed75b7af2f15f2d0}{%
+           family={Dias},
+           familyi={D\bibinitperiod},
+           given={Marco\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{uniquename=0,hash=c358a92f44f1752778f2da2044311d1c}{%
+           family={Duarte},
+           familyi={D\bibinitperiod},
+           given={Sergio},
+           giveni={S\bibinitperiod}}}%
+        {{uniquename=0,hash=62471c9e55d8639d79294522ca05f678}{%
+           family={Amorim},
+           familyi={A\bibinitperiod},
+           given={Helio\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{FapUNIFESP} ({SciELO})}%
+      }
+      \strng{namehash}{0b2f63d6017d0d02c26fd0b3f53927f0}
+      \strng{fullhash}{56a6087a9412626f5359a0c3676fdf5d}
+      \strng{authornamehash}{0b2f63d6017d0d02c26fd0b3f53927f0}
+      \strng{authorfullhash}{56a6087a9412626f5359a0c3676fdf5d}
+      \field{sortinit}{S}
+      \field{sortinithash}{3c1547c63380458f8ca90e40ed14b83e}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Brasileira de Ensino de Física}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{A placa Arduino: uma opção de baixo custo para experiências de física assistidas pelo PC.}
+      \field{volume}{33}
+      \field{year}{2011}
+      \field{pages}{01\bibrangedash 05}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1590/S1806-11172011000100026
+      \endverb
+      \verb{file}
+      \verb :26.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Wing_2008}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=c0e6b5a13b79338ef5a4273e460cedf7}{%
+           family={Wing},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{c0e6b5a13b79338ef5a4273e460cedf7}
+      \strng{fullhash}{c0e6b5a13b79338ef5a4273e460cedf7}
+      \strng{authornamehash}{c0e6b5a13b79338ef5a4273e460cedf7}
+      \strng{authorfullhash}{c0e6b5a13b79338ef5a4273e460cedf7}
+      \field{sortinit}{W}
+      \field{sortinithash}{6d25b3eefe5aa2147d1f339686808918}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences}
+      \field{month}{10}
+      \field{number}{1881}
+      \field{title}{Computational thinking and thinking about computing}
+      \field{volume}{366}
+      \field{year}{2008}
+      \field{pages}{3717\bibrangedash 3725}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1098/rsta.2008.0118
+      \endverb
+      \verb{file}
+      \verb :Wing08a.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Zanetti_2015}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=1,hash=4930d2e31216900606329303815c0c22}{%
+           family={Zanetti},
+           familyi={Z\bibinitperiod},
+           given={Humberto},
+           giveni={H\bibinitperiod}}}%
+        {{uniquename=1,hash=ede008f0ece0ee86a7af8e546ce7ec93}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Claudio},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Comissao Especial de Informatica na Educacao}%
+      }
+      \strng{namehash}{4a7aea81028a64b2601eccfaf88af82e}
+      \strng{fullhash}{4a7aea81028a64b2601eccfaf88af82e}
+      \strng{authornamehash}{4a7aea81028a64b2601eccfaf88af82e}
+      \strng{authorfullhash}{4a7aea81028a64b2601eccfaf88af82e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{35589aa085e881766b72503e53fd4c97}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Anais dos Workshops do {IV} Congresso Brasileiro de Informática na Educação ({CBIE} 2015)}
+      \field{month}{10}
+      \field{title}{Práticas de ensino de Programação de Computadores com Robótica Pedagógica e aplicação de Pensamento Computacional}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.5753/cbie.wcbie.2015.1236
+      \endverb
+      \verb{file}
+      \verb :6268-7723-1-PB.pdf:PDF
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

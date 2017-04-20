@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="65.834114mm"
+   height="58.163609mm"
+   viewBox="0 0 233.27047 206.09152"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-docencia.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.688126"
+     inkscape:cx="116.63524"
+     inkscape:cy="103.04576"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="2"
+     fit-margin-left="2"
+     fit-margin-right="2"
+     fit-margin-bottom="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="719"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Roberto Lima C. C. Júnior</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-132.09201,-357.23994)">
+    <g
+       id="g4223"
+       transform="translate(26.896552,90.689655)">
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3417"
+         d="m 112.28206,429.25488 0.5618,-155.61798 c 75.28268,12.60007 100.19666,30.63001 124.1573,50.5618 24.6145,-24.74614 50.91889,-30.90347 76.96629,-39.88764 l 0,19.10112 c -24.70002,4.67389 -47.38895,18.39768 -69.10112,36.51686 C 208.554,312.89655 168.60896,294.16738 121.83262,291.05263 l -1.12359,140.44944 z"
+         style="fill:#129fd9;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.99921262;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4219"
+         d="m 120.34482,451.67255 1.03449,-162.75862 c 46.19948,3.59541 86.0679,21.04971 123.10345,50 20.48962,-23.0512 50.63698,-29.20138 77.93103,-40.34483 l -0.34483,17.93104 c -23.85676,7.40586 -48.16825,16.50845 -67.5862,36.2069 -50.62875,-37.62587 -88.27982,-46.24279 -123.44828,-49.31035 L 130,453.74152 c -3.21839,-1.36745 -6.43679,-2.51534 -9.65518,-2.06897 z"
+         style="fill:#9ed7f4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path4221"
+         d="m 130.34483,463.83107 0.34483,-162.75862 c 41.78446,5.72751 83.27039,19.51568 124.13793,50 28.00604,-24.16933 51.69233,-29.97976 76.2069,-39.31035 l 0.34483,16.55172 c -25.77039,6.96498 -49.39575,18.22 -69.65518,36.2069 -60.18415,-42.23787 -88.90783,-42.52845 -122.75862,-49.65517 l 0,150.68965 z"
+         style="fill:#abc2d0;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

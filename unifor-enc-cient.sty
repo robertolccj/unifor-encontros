@@ -1,0 +1,242 @@
+%==================================================
+%
+% Autor: Roberto Lima [ http://robertolccj.github.io ]
+%
+% Modelo LaTeX, para artigo/resumo compatível.
+% Encontros Científicos da Universidade de Fortaleza - UNIFOR.
+% Fortaleza - CE
+%
+%==================================================
+\ProvidesPackage{unifor-enc-cient}[2017/04/15 v.03 A package for UNIFOR meetings]
+%==================================================
+\RequirePackage{xcolor}  % Caixa preta;
+\RequirePackage{titlesec}  % Customizar texto das seções;
+\RequirePackage{lastpage}  % Get last page number;
+\RequirePackage{fancyhdr}  % Customizar cabeçalho e rodapé;
+\RequirePackage{hyperref}  % Criar hiperlinks (citação to referencias);
+
+
+
+% =============================
+% Formatação das Margens da Página
+% =============================
+\RequirePackage[a4paper,includeheadfoot]{geometry}
+\geometry{tmargin=10mm,bmargin=10mm,lmargin=15mm,rmargin=15mm, headsep=4mm}
+
+
+
+% ========================
+% Formatação da Fonte Padão
+% ========================
+%Fonte compatível com a Arial (requerida no modelo unifor);
+\RequirePackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+
+
+% =============================
+% Formatar indentação dos parágrafos.
+% =============================
+\RequirePackage{indentfirst}
+\setlength\parindent{10mm}
+
+
+
+% =======================================
+% Espaçamento entre linhas de 1.5 (como no word).
+% =======================================
+\linespread{1.3}
+
+
+
+
+%===========================================
+% Variáveis para o Título
+%===========================================
+\newcommand*{\evento}[1]{\gdef\@evento{#1}}
+\newcommand*{\instituicao}[1]{\gdef\@instituicao{#1}}
+\newcommand*{\instituicaosigla}[1]{\gdef\@instituicaosigla{#1}}
+
+\newcommand*{\@evento}{XXII Encontro de Iniciação à Pesquisa}
+\newcommand*{\@instituicao}{Universidade de Fortaleza}
+\newcommand*{\@instituicaosigla}{UNIFOR}
+
+\date{17 à 21 de Outubro de 2016}
+
+
+
+
+%======================================
+% Customização do Cabeçalho / Rodapé
+%======================================
+
+\fancyhf{}  % Apaga informações anteriores do "fancy".
+
+\renewcommand{\headrulewidth}{0.5pt} %Largura da linha do cabeçalho.
+\renewcommand{\footrulewidth}{0.5pt} %Largura da linha do rodapé.
+
+
+% FANCY FOR TITLE PAGE
+\fancypagestyle{plain}{
+	\fancyhf{}  % Clean old fancy.
+	\renewcommand{\headrulewidth}{0pt}%
+	\fancyfoot[LE,LO]{\scriptsize ISSN 18088449}
+	\fancyfoot[C]{\thepage\ de {\hypersetup{linkcolor=black}\pageref{LastPage}}}
+}
+
+
+
+% FANCY FOR ONE PAGE
+\fancypagestyle{firststyle}
+{
+	\fancyhf{}  % Clean old fancy.
+	\renewcommand{\headrulewidth}{0pt}
+	\fancyfoot[LE,LO]{\scriptsize ISSN 18088449}
+%	\fancyfoot[RE,RO]{\thepage\ de \pageref{LastPage}}
+	\fancyfoot[C]{\thepage\ de {\hypersetup{linkcolor=black}\pageref{LastPage}}}
+}
+
+
+\fancyhead[RE,RO]{\@instituicao}
+\fancyhead[LE,LO]{\@evento}
+\fancyfoot[LE,LO]{\scriptsize ISSN 18088449}
+\fancyfoot[C]{\thepage\ de {\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+
+\pagestyle{fancy}
+
+
+
+
+%======================================
+% Customização do MAKETITLE
+%======================================
+
+\renewcommand\@maketitle{%
+\noindent
+\setlength{\fboxsep}{0cm}  % Already boxed
+\colorbox{black!90}{%
+	\begin{minipage}{\linewidth}%
+		\color{white}
+		\vspace*{1mm}  % Space before, inbox.
+		\centering
+		{\Large\bf\MakeUppercase{\@evento}\unskip\strut\par}
+		{\large\bf\@instituicao\unskip\strut\par}
+		{\large\bf\@date\unskip\strut\par}
+		\vspace*{1mm}  % Space after, inbox.
+	\end{minipage}%
+	}
+
+\noindent
+\begin{minipage}{\linewidth}
+	\vspace{2mm}
+	\let\footnote\thanks
+	\centering
+	{\Large \@title \par}
+	\vskip 3mm
+	{\large \@author \par}
+	\vspace{5mm}
+\end{minipage}
+
+}
+
+
+
+
+%================================================
+% Customização do texto: Título do Trabalho / Autores / Email
+%================================================
+% Necessário pacote "authblk"
+
+\renewcommand\Authfont{\bfseries}
+\renewcommand\Affilfont{\normalfont\itshape\small}
+
+\renewcommand\Authfont{\fontsize{11}{14.0}\selectfont}
+\renewcommand\Affilfont{\fontsize{10}{12.0}\itshape}
+
+\renewcommand\Authsep{, }
+\renewcommand\Authand{ e }
+\renewcommand\Authands{, e }
+
+
+
+
+%================================================
+% Customização do RESUMO (abstract)
+%================================================
+
+\renewenvironment{abstract}
+{
+\noindent
+\hspace{-2mm}
+\setlength{\fboxsep}{0mm}  % already boxed  	
+\colorbox{black!90}  % cor da caixa;
+	{
+	\begin{minipage}{\linewidth}%
+	\vspace{2mm}
+	\hspace{0mm}
+	\large\sf\bf	\color{white}  % cor da fonte;
+	\abstractname 
+	\vspace{2mm}
+	\end{minipage}
+	}
+\vspace{-4mm}
+}
+{ }
+
+
+
+
+%================================================
+% Customização das caixas das seções.
+%================================================
+
+\newcommand{\mysection}[1]{%
+%\setlength{\fboxsep}{0mm}%already boxed
+\colorbox{black!90}{
+	\begin{minipage}{\linewidth}
+	\large\sf\bf	\color{white}
+         #1
+	\end{minipage}
+	}
+}
+
+
+% \titlelabel{\thetitle.\hspace{2mm}}
+\titlelabel{\hspace{1mm}}  % Espaçamento nas caixas das seções.
+\titleformat*{\section}{\mysection}
+% \titlespacing*{\section}{0mm}{5mm}{-4mm}
+
+
+
+
+%==============================
+% informações do PDF
+%==============================
+%\makeatletter
+
+%\newcommand*{\pdfinformacoes}{
+\hypersetup{
+	pagebackref=false,
+	pdftitle={\@title}, 
+%	pdfauthor={\@author},
+    	pdfsubject={\@evento\ (\@instituicaosigla)},
+%	pdfcreator={},
+	pdfproducer={TexLive, abnTeX2, Biber},
+	pdfkeywords={}, 
+	colorlinks=true, 
+    	linkcolor=blue,
+    	citecolor=blue, 
+    	filecolor=magenta,
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+%}
+
+%\makeatother
+
+
+
+
+%==== FIM =======
+\endinput
