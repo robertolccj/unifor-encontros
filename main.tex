@@ -1,15 +1,16 @@
-\documentclass[11pt, a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{csquotes}
 \usepackage{graphicx}  % Uso de figuras.
 \usepackage{microtype}  % Melhorias de justificação do texto.
 \usepackage{multirow}  % Tabela com várias linhas em uma célula.
 \usepackage{lmodern}  % Usa a fonte Latin Modern.
 \usepackage{authblk}  % Autor e Afiliação (instituição) do artigo;
-\usepackage{bm,array}  % Tabela customizada;
-%\usepackage{unifor-enc-cient}  % Modelo UNIFOR - Encontros Científicos 2016
-\usepackage{unifor-enc-docen}  % Modelo UNIFOR - Encontro Iniciação à Docência 2016
+\usepackage{booktabs}  % Tabelas melhoradas;
+\usepackage{unifor-enc-cient}  % UNIFOR - Encontros Científicos 2016
+%\usepackage{unifor-enc-docen}  % UNIFOR - Encontro Iniciação à Docência 2016
 
 %------------------------------------------------------------
 % Marca d'agua "Rascunho"
@@ -25,12 +26,11 @@
 % BIBLIOGRAFIA
 % Substituto do Bibtex
 %------------------------------------------------------------
+\usepackage{hyperref}
 \usepackage[
 	backend = biber,
 	style = abnt,  % Para usar o sistema alfabético;
 %	style = abnt-numeric,  % Para usar o sistema numérico;
-%	bftitles,  % Negrito nos títulos;
-	giveninits,  % Abrevia primeiros nomes;
 	hyperref,  % Criar hyperlinks (se hyperref for usado?);
 	backref  % Contar quantas vezes entrada foi citada;
 ]{biblatex}
@@ -47,7 +47,7 @@
 %------------------------------------------------------------
 % Arquivo da bibliografia ".bib";
 %------------------------------------------------------------
-\addbibresource{bibliografia/LabFisica.bib}
+\addbibresource{bibliografia.bib}
 
 
 
@@ -80,8 +80,8 @@
 %------------------------------------------------------------
 % Instituições
 %------------------------------------------------------------
-\affil[1]{Universidade de Fortaleza - UNIFOR}
-\affil[2]{Instituto Federal de Educação, Ciência e Tecnologia do Ceará - IFCE}
+\affil[1]{Universidade de Fortaleza {-} UNIFOR}
+\affil[2]{Instituto Federal de Educação, Ciência e Tecnologia do Ceará {-} IFCE}
 
 
 
@@ -160,10 +160,10 @@ Foi criado com o objetivo de fornecer uma plataforma de fácil prototipação de
 
 A utilização de plataformas que envolvem programação computacional por parte do estudante podem causar um impacto positivo na aprendizagem de forma geral.
 Os algoritmos computacionais estão intimamente ligados ao desenvolvimento de estruturas do raciocínio lógico, influenciando até no comportamento humano frente à tomada de decisões em problemas do cotidiano~\cite{Wing_2008, Zanetti_2015}.
-Além disso, o contato do aluno com o equipamento de modo que o mesmo possa entender seu funcionamento é tanto motivador quanto desmistificador das atividades experimentais \cite{Rosa2003}.
+Além disso, o contato do aluno com o equipamento de modo que o mesmo possa entender seu funcionamento é tanto motivador quanto desmistificador das atividades experimentais~\cite{Rosa2003}.
 
 O objetivo deste trabalho é fazer um estudo inicial sobre a viabilidade de construção de um dispositivo de baixo custo, que utilize a plataforma Arduino.
-Para isso foi escolhido a prática sobre Lançamento Horizontal, contida no manual do laboratório de Física 1 da UNIFOR.
+Para isso foi escolhido a prática sobre Lançamento Horizontal, contida no manual do laboratório de Física 1 da \emph{UNIFOR}.
 O dispositivo final deve possuir uma melhor precisão na obtenção de dados quando comparado ao método tradicional usado.
 
 
@@ -213,9 +213,9 @@ Os fundamentos para o estudo deste tipo de situação, juntamente com todas as e
 
 
 Para a realização dos procedimentos utilizamos um suporte universal acoplado com o lançador.
-Este dispositivo é o mesmo utilizado nos laboratório didáticos da UNIFOR.
+Este dispositivo é o mesmo utilizado nos laboratório didáticos da \emph{UNIFOR}.
 Para a programação do Arduino usamos um laptop convencional com o software Arduino já instalado.
-Usamos também vários tipos de sensores conectados ao Arduino. 
+Usamos também vários tipos de sensores conectados ao Arduino.
 A Figura~\ref{fig:aparato_computador} mostra uma fotografia da bancada com os instrumentos utilizados (à esquerda), assim como os componentes Arduino (à direita).
 Escolhemos o sensor ultrassônico para a detecção da passagem da esfera na porção final do lançador, e um sensor piezoelétrico para a detecção da chegada da esfera na posição final. Esta escolha dos sensores está relacionada à facilidade de implementação que os mesmo possuem, visto a grande quantidade de manuais e fóruns existentes na \textit{web}.
 Já para o procedimento tradicionalmente realizado, além do suporte com o lançador horizontal utilizamos uma régua milimetrada e um cronômetro digital de uso manual.
@@ -263,21 +263,16 @@ Já para o caso utilizando Arduino com sensores, estão na Tabela~\ref{tab:lanca
 
 \begin{table}[!hbt]
 \centering
-\newcolumntype{A}{>{\centering\arraybackslash}p{3.5em}}%Needs 
-\newcolumntype{B}{>{\centering\arraybackslash}p{2.5em}}%Needs 
-\begin{tabular}{|l|A|A|B|B|B|c|}
-\hline 
-\multirow{2}{*}{Massas (g)} & \multicolumn{2}{c|}{Deslocamento (cm)} & \multicolumn{3}{c|}{Tempos Medidos (s)} & Tempo Médio\\
-\cline{2-7} 
+\begin{tabular}{ccccccc}
+\toprule
+\multirow{2}{*}{Massas (g)} & \multicolumn{2}{c}{Deslocamento (cm)} & \multicolumn{3}{c}{Tempos Medidos (s)} & Tempo Médio\\
+\cmidrule(r){2-7}
 & $y$ & $x$ & $t_1$ & $t_2$ & $t_3$ & $t_m$ \\
-\hline 
-\hline 
+\midrule
 $m_1 = 13,75$ & $50$ & $35$ & $0,34$ & $0,37$ & $0,28$ & $0,33$ \\
-\hline 
 $m_2 = 23,38$ & $50$ & $33$ & $0,35$ & $0,25$ & $0,31$ & $0,30$ \\
-\hline
 $m_3 = 48,55$ & $50$ & $30$ & $0,35$ & $0,25$ & $0,25$ & $0,28$ \\
-\hline 
+\bottomrule
 \end{tabular}
 \caption{Medida dos tempos de queda, em triplicata, para diferentes massas utilizadas no experimento de lançamento horizontal, utilizando o método tradicional.}
 \label{tab:lancamento_tradicional}
@@ -288,21 +283,16 @@ $m_3 = 48,55$ & $50$ & $30$ & $0,35$ & $0,25$ & $0,25$ & $0,28$ \\
 
 \begin{table}[!hbt]
 \centering
-\newcolumntype{A}{>{\centering\arraybackslash}p{3.5em}}%Needs 
-\newcolumntype{B}{>{\centering\arraybackslash}p{2.5em}}%Needs 
-\begin{tabular}{|l|A|A|B|B|B|c|}
-\hline 
-\multirow{2}{*}{Massas (g)} & \multicolumn{2}{c|}{Deslocamento (cm)} & \multicolumn{3}{c|}{Tempos Medidos (s)} & Tempo Médio\\
-\cline{2-7} 
+\begin{tabular}{ccccccc}
+\toprule
+\multirow{2}{*}{Massas (g)} & \multicolumn{2}{c}{Deslocamento (cm)} & \multicolumn{3}{c}{Tempos Medidos (s)} & Tempo Médio\\
+\cmidrule(r){2-7}
 & $y$ & $x$ & $t_1$ & $t_2$ & $t_3$ & $t_m$ \\
-\hline 
-\hline 
+\midrule
 $m_1 = 13,75$ & $50$ & $35$ & $0,33$ & $0,34$ & $0,32$ & $0,33$ \\
-\hline 
 $m_2 = 23,38$ & $50$ & $33$ & $0,34$ & $0,34$ & $0,35$ & $0,34$ \\
-\hline 
 $m_3 = 48,55$ & $50$ & $30$ & $0,34$ & $0,34$ & $0,35$ & $0,34$ \\
-\hline 
+\bottomrule
 \end{tabular}
 \caption{Medida dos tempos de queda, em triplicata, para diferentes massas utilizadas no experimento de lançamento horizontal, utilizando sensores juntamente com Arduino.}
 \label{tab:lancamento_arduino}
@@ -334,8 +324,8 @@ A posição da esfera no momento em que chega a posição final também é outro
 \section{Conclusão}
 %---------------------------------------------------------
 
-Neste estudo preliminar, podemos concluir que 
-com a utilização da plataforma Arduino em conjunto com alguns sensores, conseguimos obter dados mais precisos para o experimento de lançamento horizontal, quando comparado método tradicional em uso no laboratório de Física da UNIFOR.
+Neste estudo preliminar, podemos concluir que
+com a utilização da plataforma Arduino em conjunto com alguns sensores, conseguimos obter dados mais precisos para o experimento de lançamento horizontal, quando comparado método tradicional em uso no laboratório de Física da \emph{UNIFOR}.
 A utilização de novos métodos para a realização das práticas nos laboratórios de Física pode ser viável utilizando a plataforma livre Arduino.
 
 Um fator importante para a implementação da plataforma Arduino é seu custo relativamente baixo, assim como dos componentes de circuito.
@@ -358,7 +348,7 @@ Assim como agradecer aos técnicos de laboratório: Carlos Alberto, David Saraiv
 %=====================================
 % REFERÊNCIAS (formatação ABNT automática)
 %=====================================
-\printbibliography
+\printbibliography{}
 
 
 
