@@ -14,8 +14,6 @@
 \RequirePackage{lastpage} %Get last page number;
 \RequirePackage{fancyhdr} %Customizar cabeçalho e rodapé;
 \RequirePackage{hyperref} %Criar hiperlinks (citação to referencias);
-%\RequirePackage{multirow}  % Tabela com várias linhas em uma célula.
-%\RequirePackage{bm,array}  % Tabela customizada;
 \RequirePackage{wrapfig}
 \RequirePackage{tikz}
 
@@ -24,7 +22,8 @@
 % Formatação das Margens da Página
 % =============================
 \RequirePackage[a4paper,includeheadfoot]{geometry}
-\geometry{tmargin=10mm,bmargin=10mm,lmargin=15mm,rmargin=15mm, headsep=4mm}
+\geometry{tmargin=10mm,bmargin=10mm,lmargin=15mm,rmargin=15mm,
+		  headsep=4mm,headheight=14pt}
 
 
 
@@ -218,7 +217,7 @@
 
 %\newcommand*{\pdfinformacoes}{
 \hypersetup{
-	pagebackref=false,
+%	pagebackref=false,
 	pdftitle={\@title},
 %	pdfauthor={\@author},
     pdfsubject={\@evento\ (\@instituicaosigla)},
