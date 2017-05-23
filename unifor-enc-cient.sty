@@ -243,10 +243,22 @@
 % Citação
 %==============================
 
-\ifcsmacro{citacao}{}{
-  \let\endcitacao\undefined%
-  \newenvironment{citacao}{\begin{quote}}{\end{quote}}
+% Compatível com ABNTeX2
+% \ifcsmacro{citacao}{}{
+%   \let\endcitacao\undefined%
+%   \newenvironment{citacao}{\begin{quote}}{\end{quote}}
+% }
+
+\renewenvironment{quote}%
+{
+\small
+\list{}{\leftmargin=4cm\rightmargin=0cm}\item[]
 }
+{
+\endlist
+}
+
+
 % -----------------------------
 
 
