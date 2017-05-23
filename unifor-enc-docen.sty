@@ -56,7 +56,7 @@
 % Variáveis para o Título
 %===========================================
 \newcommand*{\evento}[1]{\gdef\@evento{#1}}
-\renewcommand*{\instituicao}[1]{\gdef\@instituicao{#1}}
+\providecommand*{\instituicao}[1]{\gdef\@instituicao{#1}}
 \newcommand*{\instituicaosigla}[1]{\gdef\@instituicaosigla{#1}}
 
 \newcommand*{\@evento}{XVI Encontro de Iniciação à Docência}
@@ -234,6 +234,18 @@
 %}
 
 %\makeatother
+
+
+
+%==============================
+% Citação
+%==============================
+
+\ifcsmacro{citacao}{}{
+  \let\endcitacao\undefined%
+  \newenvironment{citacao}{\begin{quote}}{\end{quote}}
+}
+% -----------------------------
 
 
 %================================================
