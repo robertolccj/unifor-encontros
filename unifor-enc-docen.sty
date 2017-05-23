@@ -56,7 +56,7 @@
 % Variáveis para o Título
 %===========================================
 \newcommand*{\evento}[1]{\gdef\@evento{#1}}
-\newcommand*{\instituicao}[1]{\gdef\@instituicao{#1}}
+\renewcommand*{\instituicao}[1]{\gdef\@instituicao{#1}}
 \newcommand*{\instituicaosigla}[1]{\gdef\@instituicaosigla{#1}}
 
 \newcommand*{\@evento}{XVI Encontro de Iniciação à Docência}
@@ -121,9 +121,9 @@
 \vspace{-27mm}
 
 \begin{center}
-{\Large\bf\MakeUppercase{\@evento\unskip\strut}} \\
-{\large\bf\@instituicao\unskip\strut} \\
-{\large\bf\@date\unskip\strut} \\
+{\Large\textbf{\MakeUppercase{\@evento}}\unskip\strut} \\
+{\large\textbf{\@instituicao}\unskip\strut} \\
+{\large\textbf{\@date}\unskip\strut} \\
 \end{center}
 
 
@@ -176,7 +176,7 @@
 	\begin{minipage}{0.98\linewidth}%
 	\vspace{2mm}
 	\hspace{0mm}
-	\large\sf\bf\color{white}  % cor da fonte;
+	\large\color{white}  % cor da fonte;
 	\abstractname
 	\vspace{2mm}
 	\end{minipage}
@@ -197,7 +197,7 @@
 %\setlength{\fboxsep}{0mm}%already boxed
 \colorbox{black!90}{
 	\begin{minipage}{0.97\linewidth}
-        \large\sf\bf\color{white}#1
+        \large\color{white}#1
     \end{minipage}%
 	}
 }
