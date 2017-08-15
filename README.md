@@ -21,4 +21,4 @@ Possui compatibilidade com o [Bibtex](https://pt.wikipedia.org/wiki/BibTeX).
 ### Comece a editar
 
 Comece a editar agora!
-Visualize e modifique online este modelo usando o [Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/robertolccj/unifor-encontros/archive/v0.4.zip).
+Visualize e modifique online este modelo usando o [Overleaf](https://www.overleaf.com/docs?snip_uri=https://github.com/robertolccj/unifor-encontros/archive/master.zip).
